@@ -1,0 +1,103 @@
+{
+  "name": "Obsidian Kinetic",
+  "version": "1.0.0",
+  "colors": {
+    "background": "#0B0F17",
+    "surface": {
+      "lowest": "#0A0E16",
+      "low": "#181C24",
+      "container": "#1C2028",
+      "high": "#262A33",
+      "highest": "#31353E",
+      "bright": "#353942",
+      "glass": "rgba(30, 41, 59, 0.65)"
+    },
+    "text": {
+      "primary": "#DFE2EE",
+      "secondary": "#BCC9C6",
+      "muted": "#879391",
+      "inverse": "#00201D"
+    },
+    "border": {
+      "default": "#879391",
+      "variant": "#3D4947",
+      "subtle": "rgba(61, 73, 71, 0.3)"
+    },
+    "vibes": {
+      "collaborative": {
+        "label": "Collaborative",
+        "emoji": "🤝",
+        "accent": "#0D9488",
+        "highlight": "#6BD8CB",
+        "container": "rgba(13, 148, 136, 0.15)",
+        "border": "rgba(13, 148, 136, 0.35)",
+        "glow": "0 0 16px rgba(13, 148, 136, 0.25)"
+      },
+      "excited": {
+        "label": "Excited",
+        "emoji": "🎉",
+        "accent": "#A855F7",
+        "highlight": "#DDB7FF",
+        "container": "rgba(168, 85, 247, 0.15)",
+        "border": "rgba(168, 85, 247, 0.35)",
+        "glow": "0 0 20px rgba(168, 85, 247, 0.28)"
+      },
+      "positive": {
+        "label": "Positive",
+        "emoji": "😊",
+        "accent": "#F59E0B",
+        "highlight": "#FFB95F",
+        "container": "rgba(245, 158, 11, 0.15)",
+        "border": "rgba(245, 158, 11, 0.35)",
+        "glow": "0 0 16px rgba(245, 158, 11, 0.22)"
+      },
+      "neutral": {
+        "label": "Neutral",
+        "emoji": "😐",
+        "accent": "#64748B",
+        "highlight": "#94A3B8",
+        "container": "rgba(100, 116, 139, 0.15)",
+        "border": "rgba(100, 116, 139, 0.30)",
+        "glow": "none"
+      },
+      "frustrated": {
+        "label": "Frustrated",
+        "emoji": "😤",
+        "accent": "#F43F5E",
+        "highlight": "#FFB4AB",
+        "container": "rgba(244, 63, 94, 0.15)",
+        "border": "rgba(244, 63, 94, 0.35)",
+        "glow": "0 0 16px rgba(244, 63, 94, 0.25)"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "headline": "Plus Jakarta Sans, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, Fira Code, monospace"
+    },
+    "fontSizes": {
+      "xs": "10px",
+      "sm": "12px",
+      "base": "14px",
+      "lg": "16px",
+      "xl": "20px",
+      "2xl": "28px",
+      "3xl": "40px"
+    }
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "2xl": "20px",
+    "full": "9999px"
+  },
+  "layout": {
+    "headerHeight": "64px",
+    "sidebarWidth": "280px",
+    "insightsWidth": "320px"
+  }
+}

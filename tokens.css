@@ -1,0 +1,129 @@
+/* ==========================================================================
+   VibeChat Design System: Obsidian Kinetic CSS Tokens
+   Extracted from Stitch-generated Workspace UI
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root {
+  /* --- Canvases & Surfaces --- */
+  --canvas-root: #0B0F17;
+  --surface-lowest: #0A0E16;
+  --surface-low: #181C24;
+  --surface-container: #1C2028;
+  --surface-high: #262A33;
+  --surface-highest: #31353E;
+  --surface-bright: #353942;
+  --surface-glass: rgba(30, 41, 59, 0.65);
+
+  /* --- Text & Contrast --- */
+  --on-surface: #DFE2EE;
+  --on-surface-variant: #BCC9C6;
+  --on-surface-muted: #879391;
+  --outline: #879391;
+  --outline-variant: #3D4947;
+  --outline-subtle: rgba(61, 73, 71, 0.35);
+
+  /* --- Primary Action Gradient --- */
+  --primary: #6BD8CB;
+  --primary-container: #29A195;
+  --primary-accent: #0D9488;
+  --on-primary: #00201D;
+
+  /* --- Vibe Channels --- */
+  /* 1. Collaborative */
+  --vibe-collab-accent: #0D9488;
+  --vibe-collab-light: #6BD8CB;
+  --vibe-collab-bg: rgba(13, 148, 136, 0.15);
+  --vibe-collab-border: rgba(13, 148, 136, 0.35);
+  --vibe-collab-glow: 0 0 16px rgba(13, 148, 136, 0.25);
+
+  /* 2. Excited */
+  --vibe-excited-accent: #A855F7;
+  --vibe-excited-light: #DDB7FF;
+  --vibe-excited-bg: rgba(168, 85, 247, 0.15);
+  --vibe-excited-border: rgba(168, 85, 247, 0.35);
+  --vibe-excited-glow: 0 0 20px rgba(168, 85, 247, 0.28);
+
+  /* 3. Positive */
+  --vibe-positive-accent: #F59E0B;
+  --vibe-positive-light: #FFB95F;
+  --vibe-positive-bg: rgba(245, 158, 11, 0.15);
+  --vibe-positive-border: rgba(245, 158, 11, 0.35);
+  --vibe-positive-glow: 0 0 16px rgba(245, 158, 11, 0.22);
+
+  /* 4. Neutral */
+  --vibe-neutral-accent: #64748B;
+  --vibe-neutral-light: #94A3B8;
+  --vibe-neutral-bg: rgba(100, 116, 139, 0.15);
+  --vibe-neutral-border: rgba(100, 116, 139, 0.30);
+  --vibe-neutral-glow: none;
+
+  /* 5. Frustrated */
+  --vibe-frustrated-accent: #F43F5E;
+  --vibe-frustrated-light: #FFB4AB;
+  --vibe-frustrated-bg: rgba(244, 63, 94, 0.15);
+  --vibe-frustrated-border: rgba(244, 63, 94, 0.35);
+  --vibe-frustrated-glow: 0 0 16px rgba(244, 63, 94, 0.25);
+
+  /* --- Dimensions & Layout --- */
+  --header-height: 64px;
+  --sidebar-width: 280px;
+  --insights-width: 320px;
+
+  /* --- Typography --- */
+  --font-headline: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* --- Border Radii --- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 20px;
+  --radius-full: 9999px;
+}
+
+/* Base Body Styles */
+body {
+  background-color: var(--canvas-root);
+  color: var(--on-surface);
+  font-family: var(--font-body);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Material Symbols config */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom Scrollbar matching Stitch */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(61, 73, 71, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 216, 203, 0.4);
+}

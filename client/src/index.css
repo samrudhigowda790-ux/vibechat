@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --canvas-root: #0B0F17;
+    --surface-lowest: #0A0E16;
+    --surface-low: #181C24;
+    --surface-container: #1C2028;
+    --surface-high: #262A33;
+    --surface-highest: #31353E;
+    --surface-bright: #353942;
+    --surface-glass: rgba(30, 41, 59, 0.65);
+
+    --on-surface: #DFE2EE;
+    --on-surface-variant: #BCC9C6;
+    --outline: #879391;
+    --outline-variant: #3D4947;
+
+    --primary: #6BD8CB;
+    --primary-container: #29A195;
+    --on-primary: #00201D;
+  }
+
+  body {
+    background-color: #0f131c;
+    color: #dfe2ee;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  display: inline-block;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.8s infinite ease-in-out;
+}
+
+/* Custom refined scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(61, 73, 71, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 216, 203, 0.4);
+}
